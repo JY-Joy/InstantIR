@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <!-- <link rel="stylesheet" href="./static/css/fontawesome.all.min.css"> -->
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
@@ -39,10 +39,11 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
+  <script src="https://kit.fontawesome.com/97d7515187.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
       <span aria-hidden="true"></span>
@@ -58,7 +59,7 @@
       </span>
       </a>
 
-      <!-- <div class="navbar-item has-dropdown is-hoverable">
+      <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
           More Research
         </a>
@@ -75,12 +76,12 @@
           <a class="navbar-item" href="https://photoshape.github.io">
             PhotoShape
           </a>
-        </div> -->
+        </div>
       </div>
     </div>
 
   </div>
-</nav>
+</nav> -->
 
 
 <section class="hero">
@@ -91,7 +92,7 @@
           <h1 class="title is-1 publication-title">InstantIR: Blind Image Restoration with Instant Generative Reference</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://jy-joy.github.io">Jen-Yuan Huang</a><sup>1</sup>,</span>
+              <a href="https://jy-joy.github.io">Jen-Yuan Huang</a><sup>1,2</sup>,</span>
             <span class="author-block">
               <a href="https://haofanwang.github.io">Haofan Wang</a><sup>2</sup>,</span>
             <span class="author-block">
@@ -104,17 +105,17 @@
               <a href="https://github.com/aihao2000">Hao Ai</a><sup>2</sup>,
             </span>
             <span class="author-block">
-              <a href="https://github.com/xingp-ng">Peng Xing</a><sup>1,2</sup>,
+              <a href="https://github.com/xingp-ng">Peng Xing</a><sup>2</sup>,
             </span>
             <span class="author-block">
-              <a href="https://penguinnnnn.github.io">Jen-Tse Huang</a><sup>2</sup>
+              <a href="https://penguinnnnn.github.io">Jen-Tse Huang</a><sup>3</sup>
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
             <span class="author-block"><sup>1</sup>Peking University,</span>
             <span class="author-block"><sup>2</sup>InstantX Research</span>
-            <span class="author-block"><sup>2</sup>The Chinese University of Hong Kong</span>
+            <span class="author-block"><sup>3</sup>The Chinese University of Hong Kong</span>
           </div>
 
           <div class="column has-text-centered">
@@ -124,7 +125,7 @@
                 <a href="https://arxiv.org/abs/2410.06551"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
+                      <i class="fa-solid fa-file-pdf"></i>
                   </span>
                   <span>Paper</span>
                 </a>
@@ -153,7 +154,7 @@
                 <a href="https://github.com/JY-Joy/InstantIR"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      <i class="fab fa-github"></i>
+                      <i class="fa-brands fa-github"></i>
                   </span>
                   <span>Code</span>
                   </a>
@@ -163,9 +164,9 @@
                 <a href="https://huggingface.co/InstantX/InstantIR"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      <i class="far fa-images"></i>
+                      <i class="fa-regular fa-circle-play"></i>
                   </span>
-                  <span>Model</span>
+                  <span>Demo</span>
                   </a>
             </div>
 
@@ -184,7 +185,7 @@
                 type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
+        InstantIR turns selfie videos from your phone into
         free-viewpoint
         portraits.
       </h2>
